@@ -193,3 +193,48 @@ span {
   text-align: center;
   color: #777777;
 }
+
+/* Run an Extra miles section start */
+
+#run {
+  display: flex;
+  margin-top: 100px;
+  width: 1060px;
+  height: 330px;
+  margin-left: 180px;
+  background-color: #222222;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+#run-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#run-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #777777;
+  margin-top: -20px;
+}
+
+#run-img {
+  width: 360px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+#run-btn {
+  background-color: #e6533c;
+  padding: 16px;
+  border-radius: 46px;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  margin-top: 5px;
+  border: none;
+}
