@@ -180,6 +180,7 @@ span {
   height: 180px;
   border-radius: 300px;
   margin-left: 60px;
+  opacity: 0.8;
 }
 
 .image-title {
@@ -226,6 +227,7 @@ span {
   width: 360px;
   height: 280px;
   border-radius: 8px;
+  opacity: 0.8;
 }
 
 #run-btn {
@@ -237,4 +239,62 @@ span {
   color: white;
   margin-top: 5px;
   border: none;
+}
+
+/* Meet our team Styles */
+
+#team {
+  margin-top: 100px;
+  width: 1080px;
+  height: 800px;
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+#all-trainer {
+  background-color: #222222;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: -30px;
+}
+
+#team-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#team-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777777;
+  margin-top: -20px;
+}
+
+.team-image {
+  width: 330px;
+  height: 280px;
+  margin-top: 20px;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.team-image-title {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 8px;
+  font-weight: 900;
+}
+
+.team-image-description {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 800;
+  color: #979292;
+  margin-top: -50px;
+  margin-left: 8px;
 }
