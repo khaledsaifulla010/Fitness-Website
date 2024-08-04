@@ -555,4 +555,43 @@ select {
     font-size: 50px;
     margin-left: 20px;
   }
+
+  #banner-img {
+    width: 100%;
+    margin-left: 100px;
+  }
+  #workout-video {
+    margin-top: -1750px;
+    width: 400px;
+    margin-left: 780px;
+    font-size: 40px;
+  }
+  #workout-description {
+    font-size: 30px;
+    font-weight: 500;
+    color: #777777;
+    margin-top: -15px;
+    margin-left: 5px;
+  }
+
+  #video-tutorial {
+    width: 400px;
+    margin-top: -920px;
+    font-size: 40px;
+    margin-left: 100px;
+  }
+
+  #video-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #e6533c;
+    border-radius: 300px;
+  }
+  #video-description {
+    font-size: 40px;
+    font-weight: 500;
+    color: #777777;
+    margin-top: -15px;
+    margin-left: 5px;
+  }
 }
