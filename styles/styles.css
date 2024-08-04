@@ -626,4 +626,34 @@ select {
     text-align: center;
     color: #777777;
   }
+
+  #run {
+    display: grid;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 200px;
+  }
+
+  #run-title {
+    font-size: 72px;
+    text-align: center;
+  }
+
+  #run-description {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #run-img {
+    width: 750px;
+    height: 400px;
+    margin-left: 70px;
+  }
+
+  #run-btn {
+    font-size: 30px;
+    margin-left: 300px;
+    width: 300px;
+  }
 }
