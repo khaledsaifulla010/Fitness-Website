@@ -329,6 +329,57 @@ select {
   border: none;
 }
 
+/* Personalized Worked Out Plan */
+#workout-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#workout-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777777;
+  margin-top: -20px;
+}
+.workout-form {
+  background-color: #222222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 1060px;
+  height: 480px;
+  margin-left: 160px;
+  border: none;
+  text-align: center;
+}
+.form-group {
+  margin-top: 30px;
+}
+
+.form-group input {
+  width: 800px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.form-group select {
+  width: 820px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.form-group button {
+  background-color: #e6533c;
+  color: white;
+  font-weight: 900;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
 /* Meet our team Styles */
 
 #team {
