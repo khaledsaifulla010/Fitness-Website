@@ -701,4 +701,18 @@ select {
   table {
     width: 700px;
   }
+
+  #workout-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  #workout-description {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #777777;
+    margin-top: -20px;
+  }
 }
