@@ -510,9 +510,12 @@ select {
 /* Responsiveness Styles Start */
 
 @media screen and (max-width: 576px) {
+  /* Body Styles */
   body {
     margin-left: 10px;
   }
+
+  /* NavBar Styles */
   nav {
     background: linear-gradient(to bottom, #777777, #111111);
     margin-bottom: 20px;
@@ -594,6 +597,8 @@ select {
     font-size: 40px;
   }
 
+  /* Habit Section Styles */
+
   #habit-title {
     font-size: 60px;
   }
@@ -630,6 +635,8 @@ select {
     color: #777777;
   }
 
+  /* Run Section Styles */
+
   #run {
     display: grid;
     margin-top: 100px;
@@ -659,6 +666,8 @@ select {
     margin-left: 300px;
     width: 300px;
   }
+
+  /* BMI Section Styles */
 
   #bmi-title {
     text-align: center;
@@ -702,17 +711,49 @@ select {
     width: 700px;
   }
 
+  /* Personalized Workout Section Styles */
+
   #workout-title {
-    text-align: center;
     font-size: 60px;
-    font-weight: 900;
   }
 
   #workout-description {
-    text-align: center;
     font-size: 24px;
-    font-weight: 500;
-    color: #777777;
-    margin-top: -20px;
+  }
+
+  /* Meet My Team Section Styles */
+
+  #team {
+    width: 700px;
+    height: 3100px;
+    margin-left: 300px;
+  }
+
+  #all-trainer {
+    display: grid;
+  }
+
+  #team-title {
+    font-size: 60px;
+  }
+
+  #team-description {
+    font-size: 24px;
+  }
+
+  .team-image {
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: -160px;
+  }
+  .team-image-title {
+    width: 300px;
+    margin-left: -150px;
+  }
+
+  .team-image-description {
+    margin-top: -50px;
+    margin-left: -150px;
   }
 }
