@@ -756,4 +756,37 @@ select {
     margin-top: -50px;
     margin-left: -150px;
   }
+
+  /* Footer Styles Start */
+
+  #full-footer {
+    background-color: #111111;
+    height: 750px;
+    margin-bottom: 10px;
+    width: 850px;
+    margin-left: 240px;
+  }
+
+  #footer {
+    width: 576px;
+    height: 650px;
+    display: grid;
+  }
+
+  #footer-title {
+    font-size: 70px;
+    margin-top: 50px;
+  }
+
+  .footer-list-title {
+    font-size: 30px;
+  }
+
+  #footer-outline {
+    width: 576px;
+    border: 1px solid #777777;
+    margin-left: 160px;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
 }
